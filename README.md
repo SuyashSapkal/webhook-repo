@@ -18,9 +18,15 @@ Use the below link to download ngrok. This will you get your webapp online.
 `https://ngrok.com/download`
 
 Use the command `ngrok http <port>` in once you start ngrok to get your site online once you run the app.
-example:
+
+Example:
 `ngrok http 5000`
 
 ## Running the app
 
 Run the `app.py` file in the repo and setup ngrok as explained above.
+
+By default you will land on the Index page that says `HELLO`.
+
+Use extension to your link as shown below you can read the data stored in the DB
+`/read`
